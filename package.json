@@ -17,6 +17,7 @@
     "@strapi/plugin-seo": "^1.9.8",
     "@strapi/plugin-users-permissions": "4.21.0",
     "@strapi/provider-email-nodemailer": "^4.24.4",
+    "@strapi/provider-upload-cloudinary": "^4.24.4",
     "@strapi/strapi": "4.21.0",
     "nodemailer": "^6.9.13",
     "pg": "8.8.0",
