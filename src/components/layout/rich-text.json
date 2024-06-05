@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_layout_rich_texts",
+  "info": {
+    "displayName": "Rich Text",
+    "icon": "bold",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "customField",
+      "options": {
+        "preset": "custom"
+      },
+      "customField": "plugin::ckeditor5.CKEditor",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_interactions_messages",
+  "info": {
+    "displayName": "Message",
+    "icon": "bold",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "message": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

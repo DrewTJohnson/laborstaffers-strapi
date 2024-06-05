@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_interactions_contact_forms",
+  "info": {
+    "displayName": "Contact Form",
+    "icon": "code",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "form": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::form.form"
+    },
+    "formDescription": {
+      "type": "customField",
+      "options": {
+        "preset": "custom"
+      },
+      "required": true,
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}

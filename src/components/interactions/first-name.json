@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_interactions_first_names",
+  "info": {
+    "displayName": "First Name",
+    "icon": "bold"
+  },
+  "options": {},
+  "attributes": {
+    "firstName": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

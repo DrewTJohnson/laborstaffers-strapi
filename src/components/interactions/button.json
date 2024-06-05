@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_interactions_buttons",
+  "info": {
+    "displayName": "Button",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "buttonText": {
+      "type": "string",
+      "required": true,
+      "default": "Read More"
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "newTab": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

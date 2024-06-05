@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_interactions_attachments",
+  "info": {
+    "displayName": "Attachment",
+    "icon": "attachment",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "attachment": {
+      "type": "string"
+    }
+  }
+}

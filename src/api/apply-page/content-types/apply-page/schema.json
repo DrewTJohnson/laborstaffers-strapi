@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "apply_pages",
+  "info": {
+    "singularName": "apply-page",
+    "pluralName": "apply-pages",
+    "displayName": "Apply Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.hero"
+    }
+  }
+}

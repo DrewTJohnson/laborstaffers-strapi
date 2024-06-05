@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_interactions_call_to_actions",
+  "info": {
+    "displayName": "Call To Action",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "newTab": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

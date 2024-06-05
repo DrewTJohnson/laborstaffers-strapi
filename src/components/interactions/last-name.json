@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_interactions_last_names",
+  "info": {
+    "displayName": "Last Name",
+    "icon": "bold"
+  },
+  "options": {},
+  "attributes": {
+    "lastName": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
