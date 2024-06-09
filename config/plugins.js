@@ -29,20 +29,14 @@ module.exports = ({ env }) => ({
     },
     email: {
       config: {
-        provider: 'nodemailer',
+        provider: 'sendgrid',
         providerOptions: {
-          host: env('mail.laborstaffers.com'),
-          port: env('SMTP_PORT', 465),
-          auth: {
-            user: env('SMTP_USERNAME'),
-            pass: env('SMTP_PASSWORD'),
-          },
-          // ... any custom nodemailer options
+          apiKey: env('SENDGRID_API_KEY'),
         },
         settings: {
-          defaultFrom: 'webadmin@laborstaffers.com',
-          defaultReplyTo: 'webadmin@laborstaffers.com',
-        },
+          defaultFrom: 'webadmin@yoci.dev',
+          defaultReplyTo: 'webadmin@yoci.dev'
+        }
       },
     },
     seo: {
